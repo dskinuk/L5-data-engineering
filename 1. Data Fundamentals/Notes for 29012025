@@ -1,4 +1,4 @@
-# Notes for Data Fundamentals Module 1
+# Notes for Data Fundamentals Module 1   
 
 The key sub modules for this lesson are as follows:
 1. Fundamentals of data driven enterprise
@@ -44,8 +44,24 @@ B. Data types
   - Qualitative - anything that cannot be described as a number
     - Binomial - Boolean values e.g. yes/no, True/false
     - Nominal - Named data e.g. UK/US/France (like list options?)
-    - Ordinal 
+    - Ordinal - has an order e.g. Small medium Large/Poor Average Good/ Low medium high highest
 4. Significance of standards,best practices, regulations
+Data formats  - JSON - lightweight human readbale for transmitting data between servers and web apps
+              - CSV - Comma separated version - storing tabular data to process and analyse
+              - XML - Markup Language - structuring and exchanging data between systems
+API - Application Program Interface - enable interconenction of digital systems and data excahnge e.g. integrating third party interface with internal application
+        - Restful API design principles - client server architecture to design networked apps and resource based URLs
+        - Open API - ???
+5. 3 fundamental principles of data Stewardship are:
+    - Data Quality
+    - Data Governance
+    - Data Ethics
+6. Engineering best practices for data systems include scalability, reliability, security, performance optimisation, and documentation
 
+7. The data management lifecycle involves 
+  - collecting data from sources, 
+  - cleaning/transforming data, 
+  - integrating datasets, and 
+  - visualising insights using tools like SQL, Power BI, and Tableau
 Tasks - arrange a meeting with Senior Data engineer in the team to understand the different types and data sources
 Outline approach of learning standards, best practices and regulations which inform the use of data systems in the org
