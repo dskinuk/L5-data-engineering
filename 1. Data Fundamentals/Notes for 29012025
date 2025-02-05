@@ -1,0 +1,22 @@
+# Notes for Data Fundamentals Module 1
+
+The key sub modules for this lesson are as follows:
+1. Fundamentals of data driven enterprise
+  - Think of any metrics that could be tracked to provide valuable data driven insights
+    - An example for this could be a Value dashboard for all the products the team builds. 
+    - Metrics could be User personas who use the product
+    - Use cases for using the product
+    - FTE saving, 
+    - decision points it helps to serve
+2. Building a datadriven culture
+  - Provide strategies for fostering a data driven culture
+    - Build strong relationships with your stakeholders - Building customer journeys with them and keeping them involved in the process
+    - Transparency in algorithms - Develop User manuals or videos that explain the logic in business terms. 
+    - Celebrating and embracing small wins - This helps improve cohesion and provides tangible evidence to persuade initially sceptical stakeholders
+    - Raising Data Literacy - Providing foundational training in statistics and analysis. 
+      However this linked to the point above as these training intiatives will only help if there is a productive buy-in from stakeholders
+3. Value of data and Manage different data types and sources
+4. Significance of standards,best practices, regulations
+
+Tasks - arrange a meeting with Senior Data engineer in the team to understand the different types and data sources
+Outline approach of learning standards, best practices and regulations which inform the use of data systems in the org
