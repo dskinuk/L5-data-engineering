@@ -84,11 +84,39 @@ Standards help overcome these challenges by:
 - 
 
 ## Data Formats
-  - XML - Extensive Markup Language
-  - CSV - COmma Seperated Value
-  - JSON - Java Script Object Notation
+  - XML - Extensible Markup Language - Markup language developed to structure and exchange data between systems.
+  - CSV - Comma Seperated Value - Storing and exchanging tabular data across systems for data analysis
+  - JSON - Java Script Object Notation - lightweight human readable for transmitting data between servers and webpages
 
+The above formats pose different data quality issues which need to be known to decide which format is best in a particular situation/use case.
+
+Structured Data                  Unstructured data
+- Relational database             - Not in Relational database
+- Predefined structure            - No predefined structure
+- Highly organised                - Stored in Data warehouses/Lakes
+- Easy to scale/access/store      - Significant chanllenges to store/scale
+- e.g. Spreadsheet                - Social media data, audio or video data
+
+### Choosing a Data Format 
+
+To decide what data format best suits the purpose, may require assessment on the following:
+
+- **Structured/Unstructured/semi-structured Data** - How is the data
+- **Use Cases** -  What is the purpose of the data
+- **Tooling and ecosystem** - What Tools are available for a format
+- **Performance** - What are expected performance levels
+- **Interoperability** - How is the data expected to be available across varied systems
+- **Security** -  Expected levels of security and access controls
     
 - Navigating Quality Issues in XML formats
-- Navigating Quality Issues in CSV formats
+    - Parsing issues due to complex and nested structures and mismatched tagging -
+      - Mitigation - Using effective parsers and reviews and testing
+    - Character encoding due to unrecogisable special characters
+      - Mitigation - Ensuring special characters are used with the character equivalents
+    - Schema Validation Issues due to inability to directly call out validation rules
+      - Defining and testing scheme validation
+     
+  - Navigating Quality Issues in CSV formats
+ 
+    
 - Navigating Quality Issues in JSON formats
