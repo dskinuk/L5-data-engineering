@@ -2,13 +2,13 @@
 ##Introduction to Data Quality
 Data Quality is the foundation of a strong and resilient data driven enterprise
 It encompasses some key dimensiosn or metrics and they are:
-- CIAT
--- C - **Consistency** - How well does the data conform to standards(Uniformity)
--- I - **Integrity** - How you can ensure that remains accurate and consistent throughout the lifecycle (Completeness)
--- A - **Accuracy** - How well does the data represent the real world(correctness, validity)
--- T - **Timeliness** - How uptodate is the data(recency, 
+- **CIAT**
+-- **C** - **Consistency** - How well does the data conform to standards(Uniformity)
+-- **I** - **Integrity** - How you can ensure that remains accurate and consistent throughout the lifecycle (Completeness)
+-- **A** - **Accuracy** - How well does the data represent the real world(correctness, validity)
+-- **T** - **Timeliness** - How uptodate is the data(recency, 
 Over a period of time another high level metric can be used ***RELIABILITY***
-##Data and Meta Data Standards
+##Data and Meta Data Standards   
 - Navigating Quality Issues in XML formats
 - Navigating Quality Issues in CSV formats
 - Navigating Quality Issues in JSON formats
