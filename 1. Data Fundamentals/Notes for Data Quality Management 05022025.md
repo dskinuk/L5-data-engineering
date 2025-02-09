@@ -45,13 +45,13 @@ Some standards used in the bank:
 - ISO20022
 - FIX - the language of the global financial markets used extensively by buy and sell-side firms, trading platforms and even regulators to communicate 
 
-** Fair Standard **
+**Fair Standard**
 
 Fair data are data that meet:
-- ***Findability***
-- ***Accessibilty***
-- ***Interoperability***
-- ***Reusability***
+- ***Findability*** - Data can be easily found by authorised users. Cataloging data and assigning unique identifiers
+- ***Accessibilty*** - Access management to ensure the right people have the right access to the data at all times
+- ***Interoperability*** - Ensure data can be integrated across systems. Ensure uniform formats and adoption of common standards across the board.
+- ***Reusability*** - Ensure the metadata for the data is accurate and available across systems so that the data can be re-used without having to re-collect and create inconsistencies.
 
 - 
 - Navigating Quality Issues in XML formats
