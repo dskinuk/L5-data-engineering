@@ -34,16 +34,26 @@ Like a map enables people travelling by different modes in different geographic 
 Thus fosters a collaborative environment for engineeers to innovate cost effective tools for data management that can be 
 seamlessly integrated and evolved. 
 
-Some examples of Open standards are:
+### Some examples of Open standards are:
 
 - Industry specific - (HL7 for health care industry)
 - Cross Industry - (HTTPS/TCPIP)
 - Open data standards (ODATA, OPEN API)
 
 Some standards used in the bank:
-ISO20022  
--FIX - FIX has become the language of the global financial markets used extensively by buy and sell-side firms, trading platforms and even regulators to communicate 
 
+- ISO20022
+- FIX - the language of the global financial markets used extensively by buy and sell-side firms, trading platforms and even regulators to communicate 
+
+** Fair Standard **
+
+Fair data are data that meet:
+- ***Findability***
+- ***Accessibilty***
+- ***Interoperability***
+- ***Reusability***
+
+- 
 - Navigating Quality Issues in XML formats
 - Navigating Quality Issues in CSV formats
 - Navigating Quality Issues in JSON formats
