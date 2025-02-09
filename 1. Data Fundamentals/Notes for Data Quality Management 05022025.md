@@ -73,6 +73,22 @@ Some exmaples of existing data standards are:
       -- Universal credit account
       -- Self assessment tax return
 
+Challenges of Unstandardised data
+- data Silos - without standardisation data often gets silo'd in different departments
+- inconsistent data - Silo'd data is at risk of becoming in consistent
+- Integration issues - This further leads to issues in integrating data acrodd different systems
+Standards help overcome these challenges by:
+- ***Facilitating Data Sharing*** - provide common frameworks that allow sharing across multiple systems and organisations 
+- ***Promoting Collaboration*** - standard formats and protocols allow seamless collaboration ensuring all parties interpret data consistently  
+- ***Enhancing Interoprability*** - definition of common data models and protocols allows diverse systems to communicate effectively
+- 
+
+## Data Formats
+  - XML - Extensive Markup Language
+  - CSV - COmma Seperated Value
+  - JSON - Java Script Object Notation
+
+    
 - Navigating Quality Issues in XML formats
 - Navigating Quality Issues in CSV formats
 - Navigating Quality Issues in JSON formats
