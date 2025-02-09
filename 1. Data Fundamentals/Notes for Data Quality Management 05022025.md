@@ -53,7 +53,26 @@ Fair data are data that meet:
 - ***Interoperability*** - Ensure data can be integrated across systems. Ensure uniform formats and adoption of common standards across the board.
 - ***Reusability*** - Ensure the metadata for the data is accurate and available across systems so that the data can be re-used without having to re-collect and create inconsistencies.
 
-- 
+Open Meta Data - Is a standard toolkit that helps to develop Metadata maps
+These maps provide crucial support to data engineers about the meaning, context, background and any contraints for the data
+
+Some exmaples of existing data standards are:
+- Open Banking standards - define technical specifications and APIs for sharing banking information between banks and third parties.
+- NHS Digital Interoperability Toolkit - provides guidance and standards for interoperability between different healthcare systems
+- UK Data Service - repository of socio econic data to share best practices across teams and data management frameworks.
+
+- **DCMI** Dubline Core MetaData Intiative
+  Used mostly to develop deta data for digital data assets like documents, images, videos, web pages etc.
+
+  Most popular use caes of Dubline core:
+  - Museums and archives
+  - Digital Publishing
+  - British Library
+  - Goverment data - gov.uk portal
+      -- HMRC account sign in
+      -- Universal credit account
+      -- Self assessment tax return
+
 - Navigating Quality Issues in XML formats
 - Navigating Quality Issues in CSV formats
 - Navigating Quality Issues in JSON formats
