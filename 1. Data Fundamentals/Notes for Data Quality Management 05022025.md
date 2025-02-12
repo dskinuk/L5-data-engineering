@@ -211,6 +211,22 @@ UUIDs are standardised and globally unique across different systems
       - Sampling
       - Spot checking
       - Comparison with trusted sources
-      
-  - 
 
+# Off the job traing - Activty 1
+1. What is the usability score of this dataset and is it “good” or “bad”? - 8.82 - Good
+2. How is this usability score calculated? - Completeness - 100%, COmpatibility - 100%, Credibility 33%
+3. What are the two credibility issues with this dataset and why are they important? - Source - unknown and update frequency -
+   Understanding the lineage of data is important from a lifecycle point of view. Since the source is not known we are unsure where the data is created. Update frequency is unknown and this crucial as if this is not maintained then the data may not be accurate and may be a snapshot at a particular data and time.
+4. How many columns does this dataset have? - 35
+5. What is the licence for this dataset and how would you summarise the usage rights in your own words? Open Data Commons
+   does not specify any usage rights related information apart from the disclaimer "Any damages resulting from its use are disclaimed."
+6. what does md5 mean - MD5 (message-digest algorithm) is a cryptographic protocol used for authenticating messages as well as content verification and digital signatures. MD5 is based on a hash function that verifies that a file you sent matches the file received by the person you sent it to.
+7. What are the dataTypes sc:Integer and sc:Boolean? Find an example of a Boolean field. Salary/numcompaiesworked are exmaples of integer/ Overtime yes/No is an example of boolean field
+8. why does using compression aid sustainability and net-zero goals? It requires less storage space and thus will help in lesser server requirement which will mean less energy to support infrastructure and thus helping environment
+9. What is the possible issue in identifying the meaning of the column named 'YearsSinceLastPromotion', especially when interpreting the value of '0' in one of the fields? - it does not provide any difference between employess who have never been promoted or have just been promoted.
+10. Compare the contents of the column 'Over18' and 'OverTime', what data quality issue can you identify? - Both are Boolean value columns but the values are inconsistent and may pose problems when comparing across multiple systems.
+11. What are some possible issues with the data quality of 'MonthlyIncome' and 'Monthly Rate'? -  Arent intuitive and cannot understand the cintext without underlying meta data
+12. How would you validate the 'EmployeeNumber' column and what needs paying special attention to? - It should be unique(UID)/have no duplicate values. Should be generated to the next sequence number at the time the employee joins the organisation.
+
+
+      
