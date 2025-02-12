@@ -116,7 +116,36 @@ To decide what data format best suits the purpose, may require assessment on the
     - Schema Validation Issues due to inability to directly call out validation rules
       - Defining and testing scheme validation
      
-  - Navigating Quality Issues in CSV formats
- 
+- Navigating Quality Issues in CSV formats
+    - Lack of standardised Schema leading to inconsistencies in data representation across different files
+      Header misalignment can lead to to errors i data mapping
+        - ensure all CSV have consistent headers and alignment
+    - Does not support explicit data types
+      - provide metadata to support the CSV file to help identify the type of data
+    - Fragilty - susceptible to errors due to inconsistent delimiters, line terminators etc.
+      - Mitigation - standardise use of delimiters, encapsulators and line terminators
+      
+***API - Application Programming Interface - Is a set of tools, protocols that specify how software components communicate/interact with each other. A sort of messenger for different apps to talk to each other. 
+e.g. When we use a mobile app to book a taxi, our app communicates with the taxi company's server through an API to request and recive info avout available drivers, faresmm estimated arrival times etc.
     
 - Navigating Quality Issues in JSON formats
+    - No built in mechanism to define schema - can lead to data validation issues
+        - Mitigation - Key Value pair integrity - commonly used to organise and represent data.
+        - COnsistent key naming is eesential to ensure that integrity is maintained
+          Engineers must establish naming conventions and validation rules to maintain key vaue pair integrity
+    - Limited data Types - may not support all types of data
+    - Complex Nesting may complicate parsing leading to performance issues
+        - Mitigation - Carefully design JSON strcutures to balance complexity with efficiency
+    - data volume - Handling large JSON Files can pose challenges in terms of memory usage, processing time and network bandwidth.
+        - Mitigation COnsiderations for scalbility and performance implications while working with large datasets
+           - Data streaming
+           - Pagination
+           - Compression
+           - Distributed processing
+             
+
+
+
+
+
+
