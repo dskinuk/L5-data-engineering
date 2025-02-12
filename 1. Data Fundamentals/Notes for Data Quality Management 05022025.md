@@ -143,9 +143,34 @@ e.g. When we use a mobile app to book a taxi, our app communicates with the taxi
            - Compression
            - Distributed processing
              
+## Common strategies for Data Quality Management 
+Responsible data handling - Must have adequate regulations and policies that govern the collection use and protection of data
 
+### Data Policies
+Formal guidelines that govern how data is collected, used, managed and protected in an organisation
+Ensure data is handled responsibly, ethically and in complaince to laws and industry regulations/standards
 
+#### Data Access and usage policies
+Outline who can access data and how it can be used. They specify access levels, permissions and protocols for handling sensitive or confidential information to **safeguarddata privacy and security prevent unauthorised access and ensure data is used for a legitimate business purpose**
 
+#### Data retention and archiving policies
+Outline how long data should be retained, where it should be stored and when should should it be destroyed securely or be archived
 
+#### Data sharing policies
+Govern how data is ahred with external parties i.e. partners, vendors or regulatory authrities
 
+** GDPR - General Data Protection regulations
+Comprehensive data protection law enacted by the EU in2018.
+##### Key principles are:
+    - ***Lawfulness fairness and transparency*** - data processing must be lawful fair and transparent
+    - ***Purpose limitation*** - personal data should only be collected for the explit and specific purpose
+    - ***Data minimisation*** - Only necessary data that is relevant to the purpose should be processed
+    - ***Accountability and transparency*** - Data controllers are responsible for demonstrating GDPR compliance
+    - ***Integrity and confidentiality*** personal data should be processed that ensures security, protection against unlawful access, or accidental loss or damage
+    - ***Accuracy***Personal data should be kept accurate and up to date
+    - ***Storage limitation***
+##### Requirements
+    - ***Consent*** - Organisations must obtain consent from individuals before collecting personal data
+    - ***Data Subject rights*** - right to an individual to access, rectify, restrict processing, erase their data
+    - ***Data Transfers*** - Regulates transfer of data outside EEA to ensure that appropriate safeguards are in place
 
