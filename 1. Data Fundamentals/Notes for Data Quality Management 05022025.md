@@ -159,18 +159,58 @@ Outline how long data should be retained, where it should be stored and when sho
 #### Data sharing policies
 Govern how data is ahred with external parties i.e. partners, vendors or regulatory authrities
 
-** GDPR - General Data Protection regulations
+**GDPR - General Data Protection regulations**
 Comprehensive data protection law enacted by the EU in2018.
 ##### Key principles are:
-    - ***Lawfulness fairness and transparency*** - data processing must be lawful fair and transparent
-    - ***Purpose limitation*** - personal data should only be collected for the explit and specific purpose
-    - ***Data minimisation*** - Only necessary data that is relevant to the purpose should be processed
-    - ***Accountability and transparency*** - Data controllers are responsible for demonstrating GDPR compliance
+
+    - ** Lawfulness fairness and transparency ** data processing must be lawful fair and transparent
+    - ** Purpose limitation ** - personal data should only be collected for the explit and specific purpose
+    - ** Data minimisation ** - Only necessary data that is relevant to the purpose should be processed
+    - ** Accountability and transparency ** - Data controllers are responsible for demonstrating GDPR compliance
     - ***Integrity and confidentiality*** personal data should be processed that ensures security, protection against unlawful access, or accidental loss or damage
     - ***Accuracy***Personal data should be kept accurate and up to date
     - ***Storage limitation***
+    
 ##### Requirements
+
     - ***Consent*** - Organisations must obtain consent from individuals before collecting personal data
     - ***Data Subject rights*** - right to an individual to access, rectify, restrict processing, erase their data
     - ***Data Transfers*** - Regulates transfer of data outside EEA to ensure that appropriate safeguards are in place
+
+Impact on data governance and protection practices 
+Challenges obtaining and managing consent
+Requirements for data portability and the right to be forgotten
+
+### Data Validation Tools
+- Data quality management platforms - Informatica Data Quality, talend Data Quality, IBM Infospere Information Analyser
+- Data Profiling software- SAS Data Quality, Oracle Data Profiling
+- Data Validation frameworks - Apache Griffin, Great expectations - open source validation solutions
+- Continuous Data quality monitoring
+    - Real time anomaly detection
+    - Proactive quality assurance
+    - Timely correction
+
+### Data Lineage and unique identifiers
+
+Refers to the lifecycle of the data from its origin, usage and movement over time.
+Unique identifiers - UID - codes or numbers to uniquely identify an entity in the system
+
+UUIDs are standardised and globally unique across different systems
+
+## Data Testing methodologies
+  - **Horizontal testing** - Integrity of data across multiple systems
+  - **Rule based Testing** - Validation criteria based testing
+  - **Statistical testing** - detecting deviations from expected patterns and distributions
+
+### Testing Tools
+    - Open source libraries and tools - apache griffin
+      Cost effective, community support vs Limited features and require technical expertise for customisation
+    - Commercial data quality tools - Informatica/Talend
+      Comprehensive features, userfriendly interfaces, vendor support Vs Costly license fees, dependency on vedor for updates
+    - Manual testing
+      - Sampling
+      - Spot checking
+      - Comparison with trusted sources
+      
+  - 
 
