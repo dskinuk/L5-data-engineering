@@ -228,5 +228,4 @@ UUIDs are standardised and globally unique across different systems
 11. What are some possible issues with the data quality of 'MonthlyIncome' and 'Monthly Rate'? -  Arent intuitive and cannot understand the cintext without underlying meta data
 12. How would you validate the 'EmployeeNumber' column and what needs paying special attention to? - It should be unique(UID)/have no duplicate values. Should be generated to the next sequence number at the time the employee joins the organisation.
 
-
-      
+[Activity 1 of Module 2] (h
