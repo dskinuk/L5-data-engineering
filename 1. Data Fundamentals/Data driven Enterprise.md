@@ -1,4 +1,4 @@
-# Notes for Data Fundamentals Module 1   
+# Notes for Data Driven Enterprise   
 
 The key sub modules for this lesson are as follows:
 1. Fundamentals of data driven enterprise
