@@ -16,6 +16,7 @@ The key sub modules for this lesson are as follows:
     - Raising Data Literacy - Providing foundational training in statistics and analysis. 
       However this linked to the point above as these training intiatives will only help if there is a productive buy-in from stakeholders
 3. Value of data and Manage different data types and sources
+
 A. Big data is like an ocean while small data is a Lake which crystal clear
   - Transitioning to big data - As orgs grow the data grows as well and there may be a need to transition from small data to BIG DATA due to
     - Overwhelming data - Systems have grown exponentially and thus are proving inadequate
@@ -37,7 +38,9 @@ A. Big data is like an ocean while small data is a Lake which crystal clear
         Big data - higher potential to provide valuable insights, by trend analysis, predictive modelling for strategic decision making.
         Small data - delivers immediate value for day to day decision making
 data sizes - Bytes(B), Kilobytes(KB), Megabytes(MB), Gigabytes(GB), terabytes(TB), Petabytes(PB),exabytes(EB), Zettabytes(ZB), Yottabytes(YB)
+
 B. Data types
+
   - Quantitative - anything that can be described as a number
     - discrete - can count
     - continuous - can measure
@@ -63,5 +66,6 @@ API - Application Program Interface - enable interconenction of digital systems 
   - cleaning/transforming data, 
   - integrating datasets, and 
   - visualising insights using tools like SQL, Power BI, and Tableau
+
 Tasks - arrange a meeting with Senior Data engineer in the team to understand the different types and data sources
 Outline approach of learning standards, best practices and regulations which inform the use of data systems in the org
