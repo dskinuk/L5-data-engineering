@@ -21,14 +21,28 @@
     - Primary and Foreign Keys
     - Views
     - Indexes
-  - ACID - Atomicity, COnsistency, Isolation, Durability
+  
     
 
 ## ACID and the importance of transacions
+- ACID - Atomicity, COnsistency, Isolation, Durability
 
 ## Nested SQL queries 
+Nested Create
+Nested Read
+Nested Update
+Nested Delete
 
+Co-related subqueries
 ## Joins and Data Normalisation
+- Inner Join
+- Outer (left, Right, Full)
+- Cross Join
+
+### Normalisation - Addresses issues of redundancy and integrity by ensuring that data is tored only once thus eliminating anomalies.
+- First Normal Form - All columns hold aromic values and each record is unique
+- Second Normal Form - All non key attributes are fully dependent on the primary key
+- Third Normal Form - No transitive dependecies between key and non key attributes
 
 ## Group By
 
