@@ -65,3 +65,10 @@ df. group_by()
 - Aggregating - summarising or transforming the grouped values - aggregated_data = grouped_data[ 'Age']. mean()
 - 
   
+## Merge/Join/concat
+- merge() - allows you to combine DataFrames in a manner similar to SQL joins. e.g. merged_inner = pd.merge(df_temp, df_prec, on='Date')
+- join() - easier to use than merge() and combines DataFrames based on indices by default or you can provide a key as a parameter
+joined_left = df_temp.join(df_prec, Isuffix='_temp', ruffixe'_prec', how= 'left')
+- concat() - combines DataFrames along a particular axis, either row-wise (axis=0) or column-wise (axis=1), without needing any keys.
+  concatenated = pd.concat([df_temp, df_wind], ignore_index=True)
+  
