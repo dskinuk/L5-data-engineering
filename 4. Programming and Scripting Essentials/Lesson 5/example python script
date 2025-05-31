@@ -1,0 +1,25 @@
+
+import pandas as pd
+import numpy as np
+
+# Create a sample DataFrame
+data = {
+'A': np.random.randint(1, 100, 20),
+'B': np.random.uniform(0, 1, 20),
+'C': np.random.choice(['red', 'green', 'blue'], 20),
+'Date': pd.date_range(start='2022-01-01', periods=20, freq='D')
+}
+df = pd.DataFrame(data)
+
+# Indexing and slicing
+subset = df.loc[5:10, 'A':'C']
+
+# Filtering data
+filtered_df = df[df['B'] > 0.5]
+
+# Basic statistics
+summary_stats = df.describe()
+
+print(subset)
+print(filtered_df)
+print(summary_stats)
