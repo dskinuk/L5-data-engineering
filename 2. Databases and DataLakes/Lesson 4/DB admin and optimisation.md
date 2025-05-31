@@ -24,5 +24,25 @@
     - Normalization of data
     - Use Structured Query Language
     - Can Create, ALter Drop tables and manipulate table data by Insert, Update, Delete
-    - 
-    - 
+    -  Examples include financial systems, e-commerce platforms, and content management systems. 
+- NO SQL (Not only SQL) Databases
+    - For large volumes of unstructured or semi structured data
+    - non relational data models such as Key Value stores, document databases (JSON/XML)
+    - Offer flexible schema allowing for dynamic and evolving data structures(schema less or schema on Read approach)
+    - designed for horizontal scalability across multiple servers
+    - NoSQL databases often prioritise eventual consistency, relaxing strict consistency in favour of availability and partition tolerance. This allows for temporary inconsistencies that are eventually resolved, making them suitable for applications that can tolerate eventual consistency.
+    - Examples include social networks, real-time analytics, and content delivery networks.
+## Monitoring and Optimising Database performance
+- Monitoring metrics
+    - Response time
+    - Throughput
+    - Concurrency
+    - resource utilisation
+    - Indexing
+ 
+- Tools
+    - Query Profiling
+    - Indexing Strategies
+    - DB Config
+ 
+      
