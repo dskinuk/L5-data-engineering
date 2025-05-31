@@ -57,15 +57,11 @@ print(filtered_df)
 ## Sorting, grouping, aggregating data
 df. sort_values()
 df. group_by()
+- Group by 'Condition' - grouped_data = df groupby('Condition' )
+- Aggregate to find the average age by 'Condition' - aggregated_data = grouped _data['Age'] - mean(
+- Display the grouped  DataFrame - print("Aggregated DataFrame:"); print(aggregated_data)
+- grouping multiple cols - grouped_multi = df groupby(['Condition', 'Hospital'])
 
---- Group by 'Condition'
-grouped_data = df groupby('Condition' )
---- Aggregate to find the average age by 'Condition'
-aggregated_data = grouped _data['Age'] - mean(
---- Display the aggregated DataFrame
-print("Aggregated DataFrame:")
-print(aggregated_data)
-
---- grouping multiple cols
-grouped_multi = df groupby(['Condition', 'Hospital'])
-
+- Aggregating - summarising or transforming the grouped values - aggregated_data = grouped_data[ 'Age']. mean()
+- 
+  
