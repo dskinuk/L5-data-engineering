@@ -10,9 +10,17 @@ Among the various types of NoSQL databases available such as key-value, wide-col
 
 ### Strcuture of MomgoDB database
   Stores data in 
+  
     - Collections - Similar to Tables, colleactions hold documents and does not require them to have the same schema
     - Documents - Consists of Key Value PAirs and are the absic unit storage of the DB. Similar to rows in a table, but can contain data of any type or structure.
 
 ### Extracting data from MongoDB
-    - Scraping webpages
+- Scraping web pages
+- Parsing texts
+- Interfacing with API s
+- Reading Meta Data
+
+### Transforming unstructured data
+- 
+    
     
