@@ -24,7 +24,37 @@ import pandas as pd
 - df.haed() - to display the top rows of data
 
 ## Importing data
- - CSV files
- - SQL databases
- - Excel files
+ - CSV files - pd.read_csv()
+ - SQL databases - pd.read_sql() 
+ - Excel files - pd.read_excel()
+## Exporting data
+- df.to_csv()
+- df.to_excel()
+- df.to_sql()
+
+## Data Cleaning
+ - Missing Values - df['Name'].fillna('unknown', inplace = True). 
+ - Duplicate values - drop_duplicate()
+df drop_duplicates(subset=['Name', 'Age'], keep='first', inplace=True)
+ - Inconsistent formats - df['Age'].fillna(df['Age'].median()).astype(int) - FIll missing values of age using the median function. And also ensuring the data type is integer.
+ - Outliers - outliers = df[df['Age'] > 100] . To delete the row with outlier value, sumplay re-assign the resultant dataset to itself.
+   df = df[df['Age'] <= 100]
+
+## Data maniplation and subsetting
+.loc[]
+.iloc[]
+
+- Adding or dropping columns from data frames
+    - Conditional Adding - 
+df['Stock_Status'] = ['Low' if x < 100 else 'High' for x in df['Stock_Level']]
+print("DataFrame after adding new column:")
+print (df)
+- FIltering data
+  filtered_df = df[df['Stock_Status'] == 'Low']
+print("Filtered DataFrame:")
+print(filtered_df)
+
+
+
+
  - 
