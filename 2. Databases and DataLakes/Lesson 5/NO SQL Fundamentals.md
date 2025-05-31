@@ -21,6 +21,22 @@ Among the various types of NoSQL databases available such as key-value, wide-col
 - Reading Meta Data
 
 ### Transforming unstructured data
-- 
-    
+- Data Quality - Unstructured data can be messy. Use data cleaning tools/libraries like pandas
+- Computational Intensity - Processes like sentiment analysis ca be resource heavy. Use efficient algorithms
+- Evolution of data - transformation process might need updates as data grows. Regularly review the logic and maintain code.
+
+### Transitioning MongoDB to SQL
+MongoDB, a NoSQL database, offers flexibility in handling diverse and evolving data structures.
+
+However, when data maturity reaches a point, or structured querying and analysis are required, SQL databases become indispensable.
+
+- Evaluation
+- Transformation
+- Migration
+- Validation
+- Optimisation
+- COntinuos Sync
+
+Unstructured data sources => Transform using Pyhton Libs => Semi structured MongoDB => Transform to Rel DB => Input into SQL => SQL DB
+
     
