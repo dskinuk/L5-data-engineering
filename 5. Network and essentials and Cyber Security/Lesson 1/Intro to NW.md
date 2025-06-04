@@ -1,6 +1,6 @@
 # Introduction to Netwrking
 
-## OCI refrence model
+## OSI refrence model
   - Application Layer - human interaction layer where apps can access the NW
   - Presentation Layer - ensures data is in usable format. encryption occurs here
   - Session Layer - Maintains connections and responsible for ports
